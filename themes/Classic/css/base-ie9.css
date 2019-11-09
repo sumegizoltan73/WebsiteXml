@@ -1,0 +1,11 @@
+div.header  {
+    /*
+    background-image: url('../img/header-bg.png');
+    background-repeat: repeat-x; 
+    */
+    filter: progid:dximagetransform.microsoft.gradient(startcolorstr=#dcdcdc, endcolorstr=#2a292c); 
+}
+div.menu li {
+    filter: progid:dximagetransform.microsoft.shadow(direction=0,color=#48464b,strength=3);
+}
+

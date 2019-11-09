@@ -1,0 +1,6 @@
+div.menu li {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100, FinishOpacity = 40, Style = 1, StartX = 70, FinishX = 40, StartY = 30, FinishY = 100),
+            progid:DXImageTransform.Microsoft.gradient(startcolorstr=#000000, endcolorstr=#686868);
+}
+div.static-map span, span.img-shadow, .drop-shadow {
+}

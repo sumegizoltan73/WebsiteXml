@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <languages default="hu">
+        <item name="hu" langid="hu-HU" pathfromroot="" title="Magyar" img="img/hu.png" />
+        <item name="en" langid="en-US" pathfromroot="en/" title="English" img="img/en.png" />
+    </languages>
+    <themes default="Classic">
+        <item name="Classic" url="themes/Classic" />
+    </themes>
+    <modules>
+        <item name="Base" url="modules/Base" editable="false" enabled="true" />
+    </modules>
+    <company>
+        <language name="hu">
+            <email>zoltan.sumegi@sumegi.net</email>
+            <gravatar_email>sumegizoltan73@gmail.com</gravatar_email>
+            <url>www.sumegi.net</url>
+            <phone label="Mobil:" number="36309000000" numberformat="+99 (99) 999-9999" enabled="false" />
+            <phone label="Tel/Fax:" number="3679000000" numberformat="+99 (99) 999-999" enabled="false" />
+            <name>Sümegi Zoltán</name>
+            <addressline1>------</addressline1>
+            <addressline2></addressline2>
+            <city>Bátmonostor</city>
+            <country></country>
+            <zip>6528</zip>
+            <copyright>2012 Minden jog fenntartva.</copyright>
+            <location lat="00.100000" lng="00.000000" zoom="14" width="250" height="200" markers="icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=computer%257C0088FF" />
+            <meta>
+                <property key="name" value="author" />
+                <property key="content" value="www.sumegi.net - Sümegi Zoltán" />
+            </meta>
+            <meta>
+                <property key="itemprop" value="translator" />
+                <property key="content" value="------" />
+            </meta>
+            <meta>
+                <property key="itemprop" value="design" />
+                <property key="content" value="------" />
+            </meta>
+            <meta>
+                <property key="name" value="keywords" />
+                <property key="content" value="programozás, webdesign, webfejlesztés, fejlesztés, weboldal készítése, statikus weboldal, dinamikus weboldal, xml weboldal, ASP.NET fejlesztés, C# programozás, javascript programozás, html5, Terminal OS, eLang, Language Learning, Nyelvtanulás" />
+            </meta>
+            <meta>
+                <property key="name" value="description" />
+                <property key="content" value="Sümegi Zoltán weboldala." />
+            </meta>
+            <meta>
+                <property key="itemprop" value="name" />
+                <property key="content" value="Sümegi Zoltán" />
+            </meta>
+            <meta>
+                <property key="itemprop" value="description" />
+                <property key="content" value="Sümegi Zoltán weboldala." />
+            </meta>
+            <companydata key="Nyilvántartási szám" value="------" />
+            <companydata key="Adószám" value="-------1-23" />
+        </language>
+        <language name="en">
+            <email>zoltan.sumegi@sumegi.net</email>
+            <gravatar_email>sumegizoltan73@gmail.com</gravatar_email>
+            <url>www.sumegi.net</url>
+            <phone label="Cell:" number="36309000000" numberformat="+99 (99) 999-9999" enabled="false" />
+            <phone label="Tel/Fax:" number="3679000000" numberformat="+99 (99) 999-999" enabled="false" />
+            <name>Zoltan Sumegi</name>
+            <addressline1>-----</addressline1>
+            <addressline2></addressline2>
+            <city>Batmonostor</city>
+            <country>Hungary</country>
+            <zip>H-6528</zip>
+            <copyright>2012 All right reserved.</copyright>
+            <location lat="00.100000" lng="00.000000" zoom="14" width="250" height="200" markers="icon:http://chart.apis.google.com/chart?chst=d_map_pin_icon%26chld=computer%257C0088FF" />
+            <meta>
+                <property key="name" value="author" />
+                <property key="content" value="www.sumegi.net - Zoltan Sumegi" />
+            </meta>
+            <meta>
+                <property key="name" value="translator" />
+                <property key="content" value="----" />
+            </meta>
+            <meta>
+                <property key="name" value="design" />
+                <property key="content" value="----" />
+            </meta>
+            <meta>
+                <property key="name" value="keywords" />
+                <property key="content" value="programing, webdesign, webpages, ASP.NET developing, C# programing, javascript programing, html5, Terminal OS, eLang, Language Learning" />
+            </meta>
+            <meta>
+                <property key="name" value="description" />
+                <property key="content" value="Webpage of Zoltan Sumegi." />
+            </meta>
+            <meta>
+                <property key="itemprop" value="name" />
+                <property key="content" value="Zoltan Sumegi" />
+            </meta>
+            <meta>
+                <property key="itemprop" value="description" />
+                <property key="content" value="Webpage of Zoltan Sumegi." />
+            </meta>
+            <companydata key="Registration number" value="------" />
+            <companydata key="Tax no." value="-------1-23" />
+        </language>
+    </company>
+    <pages>
+        <language name="hu" root="./" header="Sümegi Zoltán">
+            <item url="index.php" menuname="Kezdőlap" title="Kezdőlap" showinmenu="true" />
+            <item url="about.php" menuname="Rólam" title="Rólam" showinmenu="true" />
+            <item url="elang.php" menuname="eLang" title="eLang - Nyelvtanulás" showinmenu="true" />
+            <item url="programs.php" menuname="Programok" title="Programok" showinmenu="true" />
+            <item url="painting.php" menuname="Festés" title="Festés" showinmenu="true" />
+            <item url="contact.php" menuname="Kapcsolat" title="Kapcsolat" showinmenu="true" />
+        </language>
+        <language name="en" root="../" header="Zoltan Sumegi">
+            <item url="index.php" menuname="Home" title="Home" showinmenu="true" />
+            <item url="about.php" menuname="About" title="About" showinmenu="true" />
+            <item url="elang.php" menuname="eLang" title="eLang - Language Learning" showinmenu="true" />
+            <item url="programs.php" menuname="Programs" title="Programs" showinmenu="true" />
+            <item url="painting.php" menuname="Painting" title="Painting" showinmenu="true" />
+            <item url="contact.php" menuname="Contact" title="Contact" showinmenu="true" />
+        </language>
+    </pages>
+</configuration>
